@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'Player',                 # add this here so django will automatically detect it's template and static files
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
