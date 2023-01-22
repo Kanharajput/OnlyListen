@@ -19,6 +19,6 @@ from django.urls import path,include
 urlpatterns = [
     path('admin/', admin.site.urls),
     ## add the Home app's urls
-    path('', include("Home.urls"))
-    
+    path('', include("Home.urls")),
+    path('listen/',include("Player.urls"))
 ]
