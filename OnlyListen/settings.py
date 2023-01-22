@@ -33,13 +33,13 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'Player',                 # add this here so django will automatically detect it's template and static files
+    'Home', 
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'Home',
 ]
 
 MIDDLEWARE = [

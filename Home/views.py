@@ -33,4 +33,4 @@ def index(request):
                 ## there are no increment decrement operator in python 
                 page_no = page_no + 1
 
-    return render(request,'index.html')
+    return render(request,'Home/index.html')
